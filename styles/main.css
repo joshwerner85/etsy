@@ -1,5 +1,5 @@
 .outerBox {
-  width: 25%;
+  width: 28%;
   float: left;
   height: 25%;
   margin: 20px; }
@@ -9,5 +9,17 @@ img {
   float: left;
   height: 100px;
   margin: 20px; }
+
+a {
+  text-align: left;
+  margin: 0 39px;
+  text-decoration: none;
+  color: black;
+  font-size: small; }
+
+span {
+  color: green;
+  font-weight: 800;
+  font-family: arial; }
 
 /*# sourceMappingURL=main.css.map */
