@@ -1,27 +1,139 @@
-.outerBox {
-    width: 28%;
+header {
+    width: 100%;
+    height: 82px;
+    background: white;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    margin-left: -1000px;
+    margin-top: -6px;
+    margin-bottom: 11px;
+    font-size: 51px;
+}
+
+body {
+	background:#f5f5f1;
+}
+
+nav {
+    background: white;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 25px;
+}
+
+.sidebar {
+    width: 249px;
+    height: 400px;
+    background: white;
+    border: 1px solid #D6CECE;
     float: left;
-    height: 25%;
-    margin: 20px;
+    margin-left: -254px;
+    margin-top: 451px;
+}
+
+.sidebar2 {
+    width: 249px;
+    height: 400px;
+    background: white;
+    border: 1px solid #D6CECE;
+    float: left;
+    margin-left: -254px;
+    margin-top: 25px;
+}
+.outerBox {
+    width: 227px;
+    height: 228px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid grey;
+    margin-top: 26px;
+    margin-left: 26px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 33px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section#search {
+    margin-left: 433px;
 }
 
 img {
-width:80%;
-float:left;
-height:100px;
-margin:20px;
+    width: 227px;
+    height: 180px;
 }
 
-a {
-    text-align: left;
-    margin: 0 39px;
-    text-decoration: none;
-    color: black;
-    font-size: small;
+a.title-link {
+    font-size: medium;
+    text-indent: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #444;
+    font-family: arial;
+}
+
+a.title-link:hover {
+	text-decoration:none;
+    font-size: medium;
+    text-indent: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #444;
+    font-family: arial;
 }
 
 span {
     color: green;
-    font-weight: 800;
+    font-weight: bolder;
+    margin-left: 34px;
     font-family: arial;
+}
+
+a {
+    color: #9A9A9A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+
+.searchbutton {
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 365px;
+    margin-top: -31px;
+}
+
+button {
+    height: 31px;
+    border: none;
+    background: blue;
+    color: white;
+}
+
+ .inputdiv {
+    margin-top: -50px;
+    margin-left: 300px;
+}
+
+.bottomnav {
+	height:20px;
+	background:red;
 }
